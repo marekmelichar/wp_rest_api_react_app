@@ -1,9 +1,9 @@
 <?php
 
 /*
-Plugin Name: XEVOQ CALCULATOR OF SAVINGS
+Plugin Name: APP USING WP REST API WITH REACT JS
 Version: 1.0.0
-Text Domain: xevoq-calculator
+Text Domain: wp-rest-api-with-react
 Author: Marek Melichar
 Author URI: marekmelichar.cz
 License:     GPL2
