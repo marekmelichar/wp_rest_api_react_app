@@ -4,11 +4,13 @@ import { connect } from 'react-redux';
 
 import * as actions from '../actions';
 
+import PostsList from './posts_list/PostsList';
+
 class App extends Component {
   render() {
     return (
       <div>
-        APP
+        <PostsList />
       </div>
     );
   }
