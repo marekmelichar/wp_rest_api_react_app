@@ -15,5 +15,5 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>
-  , document.getElementById('main')
+  , document.getElementById('app_wrapper')
 );

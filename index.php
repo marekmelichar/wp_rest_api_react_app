@@ -1,5 +1,13 @@
 <?php
 
+get_header() ?>
 
+<?php if ( have_posts() ) : ?>
+		<?php while ( have_posts() ) : the_post() ?>
+      <?php the_content() ?>
+    <?php endwhile ?>
+	<?php else : ?>
+		<?php _e('no posts :(', 'posts') ?>
+	<?php endif ?>
 
-require_once 'functions.php';
+<?php get_footer() ?>
