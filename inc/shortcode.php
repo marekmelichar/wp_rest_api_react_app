@@ -1,6 +1,6 @@
 <?php
 
-add_shortcode( 'calculator', 'api_shortcode' );
+add_shortcode( 'react_rest_api_app', 'api_shortcode' );
 function api_shortcode( $atts ) {
 
   $atts = shortcode_atts( array(

@@ -1,4 +1,4 @@
-# XEVOQ_CALCULATOR
+# WP REST API with REACT JS 
 
 ## cd into folder /app
 ## npm i
